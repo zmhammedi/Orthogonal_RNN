@@ -6,7 +6,7 @@ from utils import load_pMNIST_data, load_synthetic_data, load_PTB_data
 
 # Global variables
 args = sys.argv
-data_path = '/data/mha001/IJCNN_2017_paper/data/'
+data_path = './data/'
 seed = int(args[1])
 rng = np.random.RandomState(seed)
 task = args[2]
@@ -52,8 +52,8 @@ else:
              (seed, task, sequence_length, modules, hidden_units_per_module, n_r, model_type, learning_rate, batch_size)
 
 print('This is for testing')
-load_progress = data_path + 'saved_models/FEB17_' + string
-save_progress = data_path + 'saved_models/FEB17_' + string  
+load_progress = data_path + 'saved_models/' + string
+save_progress = data_path + 'saved_models/' + string  
 print(string)
 sys.stdout.flush()
 
