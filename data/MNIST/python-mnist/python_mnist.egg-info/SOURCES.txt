@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+get_data.sh
+setup.py
+test.sh
+mnist/__init__.py
+mnist/loader.py
+mnist/__pycache__/__init__.cpython-35.pyc
+mnist/__pycache__/loader.cpython-35.pyc
+python_mnist.egg-info/PKG-INFO
+python_mnist.egg-info/SOURCES.txt
+python_mnist.egg-info/dependency_links.txt
+python_mnist.egg-info/top_level.txt
+tests/loader.py
